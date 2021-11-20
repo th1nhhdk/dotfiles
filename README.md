@@ -9,7 +9,6 @@ Check all configs (`bspwm/bspwmrc`) for unused programs
 <pre>
 alacritty
 bspwm
-conky
 dunst
 neovim
 picom
