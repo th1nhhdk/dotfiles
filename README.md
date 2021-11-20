@@ -2,8 +2,8 @@
 th1nhhdk's r/unixporn dotfiles
 
 ## Notes
-Check `polybar/config` and change user path
-Check all configs (`bspwm/bspwmrc`) for unused programs
++ Check `polybar/config` and change user path
++ Check all configs (`bspwm/bspwmrc`) for unused programs
 
 ## Screenshot
 ![Rice2-all](https://user-images.githubusercontent.com/58503327/142728643-aaf730ba-e65d-407b-af3a-15c1b61faaca.png)
