@@ -239,8 +239,8 @@ click-left = /home/th1nhhdk/.config/polybar/scripts/rofi.sh
 
 [module/dunst-toggle]
 type = custom/ipc
-hook-0 = echo 
-hook-1 = echo 
+hook-0 = echo 
+hook-1 = echo 
 click-left = /home/th1nhhdk/.config/polybar/scripts/dunst.sh
 initial = 1
 
