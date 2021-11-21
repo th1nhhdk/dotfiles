@@ -11,14 +11,15 @@ th1nhhdk's r/unixporn dotfiles
 ## Dependencies
 ![ảnh](https://user-images.githubusercontent.com/58503327/142728674-7e381b7d-4b29-4959-aaad-513b84bb3692.png)
 
-
 <pre>
 alacritty
 bspwm
+brightnessctl
 dunst
 neovim
 picom
 polybar
+pamixer
 rofi
 sxhkd
 adobe-source-code-pro-fonts

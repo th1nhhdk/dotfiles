@@ -129,7 +129,7 @@ super + shift + s
 alt + shift + x
     betterlockscreen -l blur 1.0
 
-# program launcher
+# command launcher
 super + shift + @space
   rofi -no-lazy-grab -show run
 
@@ -137,6 +137,25 @@ super + shift + @space
 alt + shift + {Right,Left}
     id=$(bspc query --nodes --node); bspc node --to-desktop {next,prev}; bspc desktop --focus next; bspc node --focus ${id}
 
-# Next/Prev workspace
+# next/prev workspace
 ctrl + alt + {Right,Left}
     bspc desktop {next,prev} -f
+
+# vol up/down
+XF86Audio{LowerVolume,RaiseVolume}
+    pamixer -{d,i} 5
+
+# mute the audio
+XF86AudioMute
+    pamixer -t
+
+# change brightness
+XF86MonBrightnessDown
+	brightnessctl s 10%-
+
+XF86MonBrightnessUp
+    brightnessctl s +10%
+
+# show/hide polybar
+alt + shift + @z
+	polybar-msg cmd toggle
