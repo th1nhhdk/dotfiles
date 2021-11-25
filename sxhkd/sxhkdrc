@@ -154,8 +154,8 @@ XF86MonBrightness{Down,Up}
 	brightnessctl s {10%-,+10%}
 
 # control music
-XF86Audio{Pause,Play,Next,Prev}
-    playerctl {pause,play,next,previous}
+XF86Audio{Pause,Play,Next,Prev,Stop}
+    playerctl {pause,play,next,previous,stop}
 
 # show/hide polybar
 alt + shift + @z
