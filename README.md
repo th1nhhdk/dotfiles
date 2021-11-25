@@ -20,6 +20,7 @@ neovim
 picom
 polybar
 pamixer
+playerctl
 rofi
 sxhkd
 adobe-source-code-pro-fonts

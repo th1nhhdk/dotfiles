@@ -50,6 +50,7 @@ lxpolkit &
 blueberry-tray &
 parcellite &
 conky &
+playerctld daemon &
 
 if [[ ! $STATUS_EXTERNAL_MONITOR == *disconnected* ]]; then
 	$HOME/.config/polybar/launch2.sh

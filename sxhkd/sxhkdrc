@@ -143,18 +143,19 @@ ctrl + alt + {Right,Left}
 
 # vol up/down
 XF86Audio{LowerVolume,RaiseVolume}
-    pamixer -{d,i} 5
+    pamixer -{d,i} 6
 
-# mute the audio
+# mute audio
 XF86AudioMute
     pamixer -t
 
-# change brightness
-XF86MonBrightnessDown
-	brightnessctl s 10%-
+# control brightness
+XF86MonBrightness{Down,Up}
+	brightnessctl s {10%-,+10%}
 
-XF86MonBrightnessUp
-    brightnessctl s +10%
+# control music
+XF86Audio{Pause,Play,Next,Prev}
+    playerctl {pause,play,next,previous}
 
 # show/hide polybar
 alt + shift + @z
