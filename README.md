@@ -28,4 +28,5 @@ ttf-unifont
 ttf-font-awesome
 https://github.com/arcticicestudio/nord-vim
 https://github.com/artart222/CodeArt
+gnome-keyring
 </pre>

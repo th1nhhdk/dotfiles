@@ -47,6 +47,7 @@ xsetroot -cursor_name left_ptr &
 ibus-daemon -drxR &
 dunst &
 lxpolkit &
+gnome-keyring-daemon &
 blueberry-tray &
 parcellite &
 conky &
