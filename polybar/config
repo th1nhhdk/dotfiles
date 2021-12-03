@@ -45,8 +45,8 @@ font-2 = FontAwesome5Brands:pixelsize=12;1
 font-3 = FontAwesome5FreeSolid:pixelsize=12;1
 font-4 = FontAwesome5FreeRegular:pixelsize=12;1
 
-modules-left = rofi-run bspwm xwindow
-modules-center =
+modules-left = rofi-run bspwm
+modules-center = xwindow
 modules-right = pulseaudio date dunst-toggle powermenu
 enable-ipc = true
 
@@ -93,7 +93,8 @@ tray-position = right
 tray-padding = 2
 tray-background = ${colors.nord1}
 
-modules-left = bspwm xwindow
+modules-left = rofi-run bspwm
+modules-center = xwindow
 modules-right = date
 
 wm-restack = bspwm
@@ -112,7 +113,7 @@ label = %title:0:30:...%
 [module/bspwm]
 type = internal/bspwm
 
-ws-icon-0 = "1;"
+ws-icon-0 = "1;"
 ws-icon-1 = "2;"
 ws-icon-2 = "3;"
 ws-icon-3 = "4;"
