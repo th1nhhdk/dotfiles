@@ -2,8 +2,8 @@ env:
   TERM: xterm-256color
 
 padding:
-  x: 6
-  y: 6
+  x: 15
+  y: 15
 
 title: Alacritty
 
